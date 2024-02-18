@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6812963191676745547}
   - component: {fileID: 8355927851215563091}
   - component: {fileID: 134913936347285646}
+  - component: {fileID: 1491987290792320944}
   m_Layer: 0
   m_Name: Birck
   m_TagString: Untagged
@@ -130,3 +131,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84375, y: 1.28125}
   m_EdgeRadius: 0
+--- !u!114 &1491987290792320944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134326345337659823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f984697426d24d14fba7e758566cbfb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states:
+  - {fileID: 21300042, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
+  - {fileID: 21300042, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
+  - {fileID: 21300042, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
+  unbreakable: 0

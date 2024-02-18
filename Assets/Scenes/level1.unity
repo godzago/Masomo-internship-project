@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 380056188}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (6)
@@ -193,6 +197,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 380056188}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (2)
@@ -255,6 +263,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 380056188}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (4)
@@ -381,6 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224900923}
   - component: {fileID: 224900922}
+  - component: {fileID: 224900924}
   m_Layer: 0
   m_Name: Wall (2)
   m_TagString: Untagged
@@ -448,6 +461,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 815620163}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &224900924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224900921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6394aa6b9a8fc7941b3e032eb98f4616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &233438002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -637,6 +662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+  maxBoundsAngle: 70
 --- !u!61 &292031004
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -973,7 +999,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0, g: 1, b: 0.69148946, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1157,6 +1183,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 535704353}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck
@@ -1288,6 +1318,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 535704353}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (5)
@@ -1350,6 +1384,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 535704353}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (6)
@@ -1412,6 +1450,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 380056188}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck
@@ -1474,6 +1516,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 535704353}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (1)
@@ -1675,6 +1721,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 535704353}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (2)
@@ -1737,6 +1787,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 380056188}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (3)
@@ -1938,6 +1992,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 535704353}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (4)
@@ -2000,6 +2058,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 380056188}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (1)
@@ -2139,6 +2201,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 380056188}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (5)
@@ -2263,6 +2329,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 535704353}
     m_Modifications:
+    - target: {fileID: 1491987290792320944, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2134326345337659823, guid: 50f97b79fa9101147a85761755f851ef, type: 3}
       propertyPath: m_Name
       value: Birck (3)

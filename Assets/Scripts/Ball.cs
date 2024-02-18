@@ -15,6 +15,14 @@ public class Ball : MonoBehaviour
 
     private void Start()
     {
+        ResetBall();
+    }
+
+    public void ResetBall()
+    {
+        this.transform.position = Vector2.zero;
+        this.rgb.velocity = Vector2.zero;
+
         Invoke(nameof(SetRandomTrayjectory), 1f);
     }
 
